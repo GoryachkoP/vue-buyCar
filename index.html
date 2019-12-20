@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+    <title>VueJS</title>
+</head>
+
+<body>
+    <div class="container pt-5">
+        <div class="row mb-3">
+            <div class="col">
+                <h1>Car application</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="form-group">
+                    <label for="search">Find your car</label>
+                    <input type="text" id="search" class="form-control" placeholder="Name, model ...">
+                </div>
+
+                <hr style="border-bottom: 1px solid rgba(0, 0, 0, 0.1);">
+
+                <ul class="list-group">
+                    <li class="list-group-item list-group-item-action pointer">1</li>
+                    <li class="list-group-item list-group-item-action pointer">2</li>
+                    <li class="list-group-item list-group-item-action pointer">3</li>
+                </ul>
+            </div>
+
+            <div class="col-md-8 pt-3">
+                <div class="row">
+
+                    <div class="col-md-7">
+                        <h2>Nissan</h2>
+                        <img src="images/nissan.png" alt="" class="rounded detailed-car-image">
+                    </div>
+
+                    <div class="col-md-5 pt-2">
+                        <h5>Car details</h5>
+                        <ul>
+                            <li>Model -<strong>GTR R35</strong></li>
+                            <li>Year -<strong>2015</strong></li>
+                            <li>Owner -<strong>Pavel</strong></li>
+                        </ul>
+                        <p>+380-99-666-55-22</p>
+                        <button class="btn btn-success mr-3">Show pfone</button>
+                        <button class="btn btn-primary">Buy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
