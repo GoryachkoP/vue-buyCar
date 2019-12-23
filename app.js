@@ -56,6 +56,4 @@ new Vue({
             return value.toLocaleString()
         }
     }
-
-
 })
